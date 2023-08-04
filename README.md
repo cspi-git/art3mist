@@ -4,7 +4,7 @@ Clean document files like there is no tomorrow.
 ## Installation
 Github:
 ```
-git clone https://github.com/hanaui-git/art3mist
+git clone https://github.com/cspi-git/art3mist
 ```
 
 NpmJS:
@@ -21,4 +21,4 @@ node index.js
 All you have to do is place your PDF/Document files in **in** directory and the cleaned version will be in **out** directory.
 
 ## License
-MIT © Hanaui
+MIT © CSPI

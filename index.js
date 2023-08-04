@@ -64,13 +64,11 @@
 
             if(ips){
                 data = data.replace(/\b(?:(?:2(?:[0-4][0-9]|5[0-5])|[0-1]?[0-9]?[0-9])\.){3}(?:(?:2([0-4][0-9]|5[0-5])|[0-1]?[0-9]?[0-9]))\b/g, "")
-
                 art3mist.log("i", `${ips.length} ips found & removed.`)
             }
 
             if(links){
                 data = data.replace(/((\w+:\/\/)[-a-zA-Z0-9:@;?&=\/%\+\.\*!'\(\),\$_\{\}\^~\[\]`#|]+)/g, "")
-
                 art3mist.log("i", `${links.length} links found & removed.`)
             }
 
